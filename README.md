@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# DecentraFund
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+DecentraFund est une application de financement participatif décentralisée fonctionnant sur la blockchain Ethereum. Les utilisateurs peuvent consulter des projets et y contribuer en envoyant des fonds via MetaMask.
 
-## Available Scripts
+## Fonctionnalités
+- Connexion à MetaMask
+- Affichage de la liste des projets
+- Contribution à un projet en ETH
+- Suivi des fonds collectés
+- Indicateurs de chargement et gestion des erreurs
 
-In the project directory, you can run:
+## Technologies Utilisées
+- **React.js** (avec Bootstrap pour le design)
+- **Ethers.js** (interaction avec Ethereum)
+- **Solidity** (contrats intelligents Ethereum)
 
-### `npm start`
+## Prérequis
+- MetaMask installé sur votre navigateur
+- Node.js et npm installés sur votre machine
+- Un contrat déployé sur Ethereum avec son ABI et son adresse
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+1. Clonez le répertoire du projet :
+   ```bash
+   git clone https://github.com/votre-utilisateur/DecentraFund.git
+   cd DecentraFund
+   ```
+2. Installez les dépendances :
+   ```bash
+   npm install
+   ```
+3. Configurez l'adresse du contrat dans `App.js` :
+   ```javascript
+   const contractAddress = "0xYourContractAddress";
+   ```
+4. Lancez l'application :
+   ```bash
+   npm start
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Utilisation
+1. Ouvrez l'application dans votre navigateur.
+2. Connectez votre portefeuille MetaMask.
+3. Consultez les projets listés.
+4. Entrez un montant en ETH et cliquez sur "Contribuer" pour financer un projet.
 
-### `npm test`
+## Améliorations Futures
+- Ajout de la création de projets par les utilisateurs.
+- Support pour d'autres blockchains (Polygon, BSC, etc.).
+- Amélioration de l'UI/UX.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Auteur
+- **Votre Nom**
+- [GitHub](https://github.com/votre-utilisateur)
+- [LinkedIn](https://linkedin.com/in/votre-profil)
 
-### `npm run build`
+## Licence
+Ce projet est sous licence MIT.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
