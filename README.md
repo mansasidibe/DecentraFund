@@ -22,7 +22,7 @@ DecentraFund est une application de financement participatif décentralisée fon
 ## Installation
 1. Clonez le répertoire du projet :
    ```bash
-   git clone https://github.com/votre-utilisateur/DecentraFund.git
+   git clone https://github.com/mansasidibe/DecentraFund.git
    cd DecentraFund
    ```
 2. Installez les dépendances :
@@ -48,12 +48,3 @@ DecentraFund est une application de financement participatif décentralisée fon
 - Ajout de la création de projets par les utilisateurs.
 - Support pour d'autres blockchains (Polygon, BSC, etc.).
 - Amélioration de l'UI/UX.
-
-## Auteur
-- **Votre Nom**
-- [GitHub](https://github.com/votre-utilisateur)
-- [LinkedIn](https://linkedin.com/in/votre-profil)
-
-## Licence
-Ce projet est sous licence MIT.
-
